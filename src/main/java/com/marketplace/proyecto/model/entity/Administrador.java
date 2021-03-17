@@ -20,6 +20,7 @@ public class Administrador {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long idadministrador;
 
+    //nombre del administrador
     String nombre;
 
     @Column(unique = true)
