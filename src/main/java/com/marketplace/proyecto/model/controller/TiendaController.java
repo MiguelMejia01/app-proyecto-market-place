@@ -21,6 +21,8 @@ public class TiendaController {
     @Autowired
     private ITiendaService tiendaService;
 
+    // se agregan controladores
+    // estoy probando el slack
 
     // Buscar Por Id
     @GetMapping("/ver/{id}")
