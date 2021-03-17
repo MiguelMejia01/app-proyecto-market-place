@@ -9,8 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 public interface IProductoService {
-    // BUSQUEDA POR TODAS
-    List<Producto> findByAll();
+
 
     // BUSCAR  POR ID
     @Transactional(readOnly = true)

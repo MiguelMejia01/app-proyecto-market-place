@@ -25,12 +25,7 @@ public class TiendaService implements ITiendaService {
 
     private Tienda tienda;
 
-    // BUSQUEDA POR TODAS LAS TIENDAS
-    @Override
-    public List<Tienda> findByAll() {
-        List<Tienda> tiendas = tiendaDao.findAllByOrderById();
-        return tiendas;
-    }
+
 
     // BUSCAR DIAS NO LABORABLES POR ID
     @Override

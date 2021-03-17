@@ -10,6 +10,5 @@ import java.util.List;
 @Repository
 public interface IAdministradorDao  extends CrudRepository<Administrador, Long> {
 
-    List<Administrador> findAllByOrderById();
 
 }

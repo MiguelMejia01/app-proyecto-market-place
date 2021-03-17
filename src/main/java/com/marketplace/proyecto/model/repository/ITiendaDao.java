@@ -9,5 +9,5 @@ import java.util.List;
 @Repository
 public interface ITiendaDao extends CrudRepository<Tienda,Long> {
 
-    List<Tienda> findAllByOrderById();
+
 }

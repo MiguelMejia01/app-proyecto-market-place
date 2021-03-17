@@ -21,9 +21,6 @@ public class TiendaController {
     @Autowired
     private ITiendaService tiendaService;
 
-    @GetMapping("/listar")
-    public List<Tienda> listarTiendas() { return tiendaService.findByAll();}
-
 
     // Buscar Por Id
     @GetMapping("/ver/{id}")

@@ -9,6 +9,5 @@ import java.util.List;
 
 @Repository
 public interface IProductoDao extends CrudRepository<Producto,Long> {
-    List<Producto> findAllByOrderById();
 
 }

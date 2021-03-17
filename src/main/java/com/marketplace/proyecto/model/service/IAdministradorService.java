@@ -11,7 +11,7 @@ import java.util.List;
 public interface IAdministradorService {
 
 
-    List<Administrador> findByAll();
+
 
     // BUSCAR  POR ID
     @Transactional(readOnly = true)

@@ -26,12 +26,7 @@ public class AdministradorService implements IAdministradorService {
 
     private Administrador administrador;
 
-    // BUSQUEDA POR TODAS
-    @Override
-    public List<Administrador> findByAll() {
-        List<Administrador> administrador = administradorDao.findAllByOrderById();
-        return administrador;
-    }
+
 
     // BUSCAR  POR ID
     @Override

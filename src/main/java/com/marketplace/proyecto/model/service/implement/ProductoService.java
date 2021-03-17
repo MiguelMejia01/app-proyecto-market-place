@@ -27,13 +27,6 @@ public class ProductoService implements IProductoService {
 
     private Producto producto;
 
-    // BUSQUEDA POR TODAS
-    @Override
-    public List<Producto> findByAll() {
-        List<Producto> productos = productoDao.findAllByOrderById();
-        return productos;
-    }
-
     // BUSCAR  POR ID
     @Override
     @Transactional(readOnly = true)

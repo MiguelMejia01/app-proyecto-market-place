@@ -26,12 +26,6 @@ public class ClienteService implements IClienteService {
 
     private Cliente cliente;
 
-    // BUSQUEDA POR TODAS
-    @Override
-    public List<Cliente> findByAll() {
-        List<Cliente> clientes = clienteDao.findAllByOrderById();
-        return clientes;
-    }
 
     // BUSCAR  POR ID
     @Override

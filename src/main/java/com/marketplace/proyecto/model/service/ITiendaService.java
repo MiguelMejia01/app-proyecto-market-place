@@ -8,7 +8,6 @@ import java.util.List;
 
 public interface ITiendaService {
 
-    List<Tienda> findByAll();
 
     Tienda findById(Long id) throws MasterResourceNotFoundException;
 

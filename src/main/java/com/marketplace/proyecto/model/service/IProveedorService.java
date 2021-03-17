@@ -9,8 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 public interface IProveedorService {
-    // BUSQUEDA POR TODAS
-    List<Proveedor> findByAll();
 
     // BUSCAR  POR ID
     @Transactional(readOnly = true)

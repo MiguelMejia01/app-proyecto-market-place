@@ -9,6 +9,5 @@ import java.util.List;
 
 @Repository
 public interface IProveedorDao extends CrudRepository<Proveedor, Long> {
-    List<Proveedor> findAllByOrderById();
 
 }

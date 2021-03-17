@@ -8,7 +8,6 @@ import java.util.List;
 
 public interface IClienteService {
 
-    List<Cliente> findByAll();
 
     Cliente findById(Long id) throws MasterResourceNotFoundException;
 

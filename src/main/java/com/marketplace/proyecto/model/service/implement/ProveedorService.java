@@ -26,12 +26,7 @@ public class ProveedorService implements IProveedorService {
 
     private Proveedor proveedor;
 
-    // BUSQUEDA POR TODAS
-    @Override
-    public List<Proveedor> findByAll() {
-        List<Proveedor> proveedors = proveedorDao.findAllByOrderById();
-        return proveedors;
-    }
+
 
     // BUSCAR  POR ID
     @Override
