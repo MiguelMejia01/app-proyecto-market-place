@@ -21,6 +21,9 @@ public class Administrador {
     Long idadministrador;
 
     //tercera prueba del slack 
+    // ya funciona la herramiente slack y el despliegue continuo con git hub 
+    // conecte git hub con la cuenta de heroku y escogi el repositorio cual desplegar 
+    // tambien escogi que no desplegara hasta que ejecutara el CI que tenia en mi repositorio 
     String nombre;
 
     @Column(unique = true)
