@@ -20,7 +20,7 @@ public class Administrador {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long idadministrador;
 
-    //sigo probando el slack 
+    //tercera prueba del slack 
     String nombre;
 
     @Column(unique = true)
